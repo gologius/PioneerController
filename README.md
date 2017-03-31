@@ -1,16 +1,16 @@
-# README #
+# README
 
 
-## 概要##
+## 概要
 MobileRobots社製 Pioneer 3DX をキーボードで操作できる簡易サンプルです．C++，VisualStudio
 
-## 環境構築 ##
+## 環境構築
 1. SDKをインストールする 
 http://robots.mobilerobots.com/wiki/Main_Page
 
 1. RS-232Cのコネクタにケーブルを挿す 
 
-###確認方法###
+## 確認方法
 * 下記マニュアルのChapter5を参考に，demoが動けばOK(demoは矢印キーで操作できる．遅延する？ので注意) 
 http://www.inf.ufrgs.br/~prestes/Courses/Robotics/manual_pioneer.pdf
 
@@ -20,6 +20,3 @@ http://www.inf.ufrgs.br/~prestes/Courses/Robotics/manual_pioneer.pdf
 ```bash
 >> demo.exe -robotPort COM4 -robotBaud 9600
 ```
-
-## 実行 ##
-上記の環境構築と動作確認を行ったうえで，ビルド，実行する
